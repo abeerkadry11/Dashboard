@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbar</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/media.css"/>
+    </head>
+
+<body>
+    <main>
+        <section class="dashboard">
+            <div class="container">
+                <section class="nav-section">
+                    <div class="profile">
+                        <i class="fa-solid fa-user fa-3x"></i>
+                    </div>
+                    <nav class="main-menue">
+                        <div class="content-nav">
+                            <h1> Abeer kadry</h1>
+                            <span>abeerkadry96@gmail.com</span>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-folder"></i>file</a></li>
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i> messages</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-bell"></i>notifications</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> location </a></li>
+                            <li><a href="#"> <i class="fa-solid fa-chart-pie"></i>graph </a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section class="content">
+                    <div class="logo">
+                        <h1>Dashboard User</h1>
+                        <a> <i class="fa-solid fa-bars fa-xl"></i></a>
+                    </div>
+                    <!-- card  -->
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="payment">
+                                <div class="card-header">
+                                    <div class="amount">
+                                        <span class="tittle">Earning</span>
+                                        <span class="amount-value">$ 628</span>
+                                    </div>
+                                    <i class="fa-solid fa-dollar-sign icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="payment">
+                                <div class="card-header">
+                                    <div class="amount">
+                                        <span class="tittle">share</span>
+                                        <span class="amount-value">2434</span>
+                                    </div>
+                                    <i class="fa-solid fa-share-nodes icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="payment">
+                                <div class="card-header">
+                                    <div class="amount">
+
+                                        <span class="tittle">likes</span>
+                                        <span class="amount-value">1259</span>
+                                    </div>
+                                    <i class="fa-solid fa-thumbs-up icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="payment">
+                                <div class="card-header">
+                                    <div class="amount">
+
+                                        <span class="tittle">Rating</span>
+                                        <span class="amount-value">8,5</span>
+                                    </div>
+                                    <i class="fa-solid fa-star icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="charts">
+                        <div class="chart">
+                            <h3>Result</h3>
+                            <canvas id="barChart"></canvas>
+                            <div class="chart-container">
+                                <canvas id="myChart"></canvas>
+                                <img src="image/PF_OOUI_datepicker.png" alt="date" />
+                            </div>
+                        </div>
+                        <div class="wrap">
+
+                            <div class="chart--two">
+
+                                <canvas id="doughnut">
+                                </canvas>
+                                <p>Lorem, ipsum.</p>
+                                <p>Lorem, ipsum.</p>
+                                <p>Lorem, ipsum.</p>
+
+                                <div class="btn">
+                                    <button type="button">check Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="chart1.js"></script>
+    <script src="chart2.js"></script>
+    <script src="chart3.js"></script>
+</body>
+
+</html>
